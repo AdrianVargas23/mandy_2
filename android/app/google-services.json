@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "959230327096",
+    "project_id": "mandy2-e0a69",
+    "storage_bucket": "mandy2-e0a69.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959230327096:android:f0ed53dc7bc122f353e9cd",
+        "android_client_info": {
+          "package_name": "com.example.mandy_2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxroVlmXo2FaxBCVeFAzCtYUPbAavmxA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
