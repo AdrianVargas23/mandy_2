@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:mandy_2/pages/SignInPage.dart';
+import 'package:mandy_2/pages/SignUpPage.dart';
 import 'firebase_options.dart';
 import 'package:firebase_auth/firebase_auth.dart' as firebase_auth;
 
@@ -33,18 +35,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text("Mandy"),
-        ),
-        body: Center(
-            child: ElevatedButton(
-          onPressed: () {
-            signup();
-          },
-          child: Text("Iniciar sesión"),
-        )),
-      ),
+      home: SignInPage(),
     );
   }
 }
